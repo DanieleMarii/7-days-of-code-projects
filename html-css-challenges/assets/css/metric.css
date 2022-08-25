@@ -1,0 +1,34 @@
+.metric-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+}
+
+.metric-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.metric-quantity{
+    font-size: 3.75rem;
+    color: var(--main-color);
+    font-weight: 600;
+    line-height: 4.35rem;
+}
+
+.metric-title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.58em;
+    color: var(--title-color);
+}
+
+.metric-text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+    
+}
