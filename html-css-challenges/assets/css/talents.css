@@ -15,10 +15,10 @@
     font-weight: 500;
 }
 
-.talents h1{
+.talents h2{
     font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.6rem;
     color: var(--title-color);
 }
 
