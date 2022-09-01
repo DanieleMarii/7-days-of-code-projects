@@ -20,9 +20,9 @@
 }
 
 .metric-title{
-    font-size: 1.1rem;
+    font-size: 90%;
     font-weight: 500;
-    line-height: 1.58em;
+    line-height: 140%;
     color: var(--title-color);
 }
 
