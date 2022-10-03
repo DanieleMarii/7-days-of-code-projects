@@ -36,7 +36,7 @@
     font-weight: 400;
 }
 
-.info-movie > span:nth-child(1){
+.info-movie-title{
     white-space: nowrap;
     margin-bottom: 24px;
     width: 30%;
@@ -82,5 +82,11 @@
         text-align: justify;
         margin: 41px;
     }
-
+    
+    .info-movie-title{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        align-content: center;
+    }
 }
