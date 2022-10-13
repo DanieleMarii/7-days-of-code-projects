@@ -1,3 +1,14 @@
+const fetchMovie = () =>{
+  const url = `https://api.themoviedb.org/3/movie/550?api_key=afc1c11ed31663f14dee64875b7f2fa1`
+  fetch(url)
+  .then(response => response.json())
+  .then(movie => {
+    console.log(movie);
+  })
+}
+
+fetchMovie()
+
 
 function renderMovie(movie){
     const { title, image, rating, year, description, isFavorited } = movie
