@@ -18,7 +18,7 @@
 
     <!--javascript -->
     <!-- <script src="assets/js/script.js" defer></script> -->
-    <script src="assets/js/requisicao.js" defer></script>
+    <script src="assets/js/requisicaoAPI_teste.js" defer></script>
 
     <title>Meus filmes</title>
 </head>
@@ -28,7 +28,7 @@
         <h1>Filmes Populares</h1>
         <div class="box-search">
             <input type="text" id="pesquisar" placeholder="Digite algum filme para pesquisar...">
-            <button>
+            <button id="search-button">
                 <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M19.35 20.35L15 16" stroke="#8A8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="container-movie">
+    <div class="container-movie" id="movies-container">
         <!-- <div class="card-movie">
             <div class="img-movie">
                 <img src="assets/img/movie.png" alt="">

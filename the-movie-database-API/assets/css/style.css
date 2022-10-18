@@ -29,6 +29,7 @@
 }
 
 .box-search > button{
+    cursor: pointer;
     width: 10%;
     border: none;
     background-color: transparent;
